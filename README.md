@@ -6,7 +6,7 @@ node index.js WGUBCMMQCRA5HPX7YJQ2KWCW3Y
 
 In the above example, a file named `files/WGUBCMMQCRA5HPX7YJQ2KWCW3Y.json` would be generated (assuming that `files/WGUBCMMQCRA5HPX7YJQ2KWCW3Y.html` exists).
 
-The a `content` attribute will be created to house the JSON-stringified HTML:
+A `content` attribute will be created to house the JSON-stringified HTML:
 
 ```
 {
