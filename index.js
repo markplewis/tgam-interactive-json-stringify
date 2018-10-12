@@ -11,7 +11,7 @@ if (process.argv.length > 2) {
     console.error(error);
   });
 } else {
-  console.log("Please provide an Arc UUID");
+  console.log("Please provide an Ellipsis UUID");
 }
 
 function jsonStringifyHTML(inputFile, outputFile) {
