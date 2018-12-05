@@ -1,0 +1,2186 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Exceptional Canadians</title>
+			
+	<link href="https://www.theglobeandmail.com/legacy/media/www/css/global.fonts.css" rel="stylesheet">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>	
+	
+	<script>
+       var animateHTML = function () {
+  var elems,
+    windowHeight
+  var init = function () {
+    elems = document.getElementsByClassName('hidden')
+    windowHeight = window.innerHeight
+    _addEventHandlers()
+  }
+  var _addEventHandlers = function () {
+    window.addEventListener('scroll', _checkPosition)
+    window.addEventListener('resize', init)
+  }
+  var _checkPosition = function () {
+    for (var i = 0; i < elems.length; i++) {
+      var posFromTop = elems[i].getBoundingClientRect().top
+      if (posFromTop - windowHeight <= 0) {
+        elems[i].className = elems[i].className.replace('hidden', 'fade-in-element')
+      }
+    }
+  }
+  return {
+    init: init
+  }
+}
+animateHTML().init()
+      </script>
+	
+
+	
+	<style>
+	
+.gi-header a:link {
+    text-decoration:none;
+    border-bottom:0px solid;
+}
+
+.gi-header a:hover {
+    color:#cc2e3e;
+    border-bottom:0px solid #cc2e3e;
+}
+.gi-header {
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #BDC3C7;
+    display: flex;
+    display: -ms-flexbox;
+    font-size: 0.875rem;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: -55px;
+    transition: top 0.3s linear;
+    width: 100% !important;
+    z-index: 5;
+}
+article, aside, footer, header, nav, section {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+a {
+    color: #111;
+}
+a {
+    background-color: transparent;
+    webkit-text-decoration-skip: objects;
+}
+
+
+.gi-header__title {
+    flex-grow: 2;
+    line-height: 1;
+    ms-flex-positive: 2;
+    padding: 10px 0px 0px;
+    text-transform: uppercase;
+}
+
+  .sponsor {
+    width:160px;
+    height:30px;
+    background-color:#ff3399;
+  } 
+  
+.gi-share {
+    align-items: center;
+    display: flex;
+    display: -ms-flexbox;
+    ms-flex-align: center;
+    padding-right: 10px;
+}
+
+
+
+
+svg.tgam-nameplate {
+    background-color: #ce2a23;
+    display: block;
+    height: 50px;
+    padding: 2px;
+    width: 50px;
+
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+svg.tgam-nameplate path {
+    fill: #fff;
+}
+
+
+
+element {
+
+}
+svg.tgam-nameplate path.tgam-leaf {
+
+    fill-rule: evenodd;
+
+}
+svg.tgam-nameplate path {
+
+    fill: #fff;
+
+}
+
+.gi-header__title p {
+    font-family: "GMsanC-Bold","GMSansCBold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    margin: 8px 0 0 10px;
+	display:inline-block;
+	vertical-align:top;
+}
+	
+
+
+.gi-share ul {
+    display: flex;
+    display: -ms-flexbox;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gi-share li {
+    height: 32px;
+    text-align: center;
+    width: 32px;
+}
+
+.gi-share a {
+    background: transparent;
+    color: #777;
+    display: inline-block;
+    height: 100%;
+    text-decoration: none;
+    width: 100%;
+}
+
+.gi-share span {
+    display: inline-block;
+    font-size: 1.1em;
+    line-height: 1.85em;
+    vertical-align: bottom;
+}
+
+.gi-header.gi-header__active {
+    top: 0;
+}
+[class^="gmicon-"], [class*=" gmicon-"] {
+    font-family: !'GMicon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.gmicon-facebook::before {
+  content: "\66";
+}
+
+.gmicon-twitter::before {
+    content: "\74";
+}
+.gi-header__title img {
+width:140px;
+	padding-top:10px;
+	padding-left:10px;
+}
+.adCall {
+  margin:0 auto;
+  display: block;
+  width:100%;
+}
+
+
+</style>
+	
+<style>
+
+.gi-c-video {
+    margin-top: .625rem;
+    margin-bottom: .625rem;
+    position: relative
+}
+
+.gi-c-video--image {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center
+}
+
+.gi-c-video__button--play {
+    margin-bottom: 16px;
+    margin-left: 16px;
+    position: absolute;
+    bottom: 0
+}
+
+.gi-c-button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: .5625rem 2rem;
+    border: 1px solid;
+    border-radius: .125rem;
+    transition: background-color 0.25s ease-out;
+    font-size: .875rem;
+    min-height: 2.5rem;
+    line-height: 1;
+    letter-spacing: .0625rem;
+    vertical-align: middle;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center
+}
+
+.font__gmsangi-c-bold--loaded .gi-c-button {
+    font-family: "GMsangi-c-Bold",Helvetica,Arial,Verdana,sans-serif;
+    font-weight: normal;
+    font-style: normal
+}
+
+.gi-c-button em,.gi-c-button i {
+    font-style: normal
+}
+
+.gi-c-button:active {
+    transition-duration: 0;
+    transition-timing-function: unset
+}
+
+.gi-c-button--dark-secondary {
+    border-color: #b2b2b2;
+    background-color: #333;
+    color: #fff
+}
+
+.gi-c-button--dark-secondary .gi-c-button__icon {
+    fill: #fff
+}
+
+.gi-c-button--dark-secondary:hover,.gi-c-button--dark-secondary:focus {
+    background-color: #666;
+    color: #fff
+}
+
+.gi-c-button--dark-secondary:hover .gi-c-button__icon,.gi-c-button--dark-secondary:focus .gi-c-button__icon {
+    fill: #fff
+}
+
+.gi-c-button--dark-secondary:active {
+    background-color: #191919;
+    color: #fff
+}
+
+.gi-c-button--dark-secondary:active .gi-c-button__icon {
+    fill: #fff
+}
+
+.gi-c-button--no-border {
+    border: none
+}
+
+.gi-c-button__icon,.gi-c-button__text {
+    vertical-align: middle;
+    display: inline-block
+}
+
+.gi-c-button__icon {
+    width: 1.125rem;
+    height: 1.125rem;
+    margin-right: .3125rem
+}
+
+.gi-c-button--badge {
+    padding: 6px;
+    border-radius: 4px;
+    text-align: left
+}
+
+.gi-c-button--badge .gi-c-button__icon {
+    height: 32px;
+    width: 32px
+}
+
+.gi-c-button--badge .gi-c-button__text {
+    font-size: 12px;
+    line-height: 1.25
+}
+
+.gi-c-button__primary-text {
+    display: block
+}
+
+.gi-c-button__secondary-text {
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+	
+}
+
+.font__gmsangi-c-regular--loaded .gi-c-button__secondary-text {
+    font-family: "GMsangi-c-Regular",Helvetica,Arial,Verdana,sans-serif;
+    font-weight: normal;
+    font-style: normal
+}
+
+.gi-c-button__secondary-text em,.gi-c-button__secondary-text i {
+    font-style: normal
+}
+
+.gi-c-button__secondary-text strong,.gi-c-button__secondary-text b {
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-weight: 700;
+    font-style: normal
+}
+
+.font__gmsangi-c-bold--loaded .gi-c-button__secondary-text strong,.font__gmsangi-c-bold--loaded .gi-c-button__secondary-text b {
+    font-family: "GMsangi-c-Bold",Helvetica,Arial,Verdana,sans-serif;
+    font-weight: normal;
+    font-style: normal
+}
+
+.gi-c-button__secondary-text strong em,.gi-c-button__secondary-text strong i,.gi-c-button__secondary-text b em,.gi-c-button__secondary-text b i {
+    font-style: normal
+}
+
+.gi-c-button--icon-only {
+    width: 40px;
+    height: 40px;
+    padding: 0 9px
+}
+
+.gi-c-button--icon-only .gi-c-button__icon {
+    margin-right: 0
+}
+
+.gi-c-control {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    margin: 0;
+    overflow: visible;
+    padding: 0 2px;
+    position: relative;
+    width: 50px;
+    text-decoration: none
+}
+
+.gi-c-control--stone {
+    width: auto;
+    background-color: transparent
+}
+
+.gi-c-control--close-modal {
+    top: 1px;
+    right: 1px;
+    position: absolute;
+    padding: 0;
+    height: 44px
+}
+
+.gi-c-control__button {
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 14px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    height: 44px;
+    width: 44px;
+    line-height: 1;
+    overflow: visible;
+    padding: 0;
+    vertical-align: middle;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    background-color: transparent
+}
+
+.font__gmsangi-c-bold--loaded .gi-c-control__button {
+    font-family: "GMsangi-c-Bold",Helvetica,Arial,Verdana,sans-serif;
+    font-weight: normal;
+    font-style: normal
+}
+
+.gi-c-control__button em,.gi-c-control__button i {
+    font-style: normal
+}
+
+.gi-c-control__button .gi-c-control__label {
+    color: #fff
+}
+
+.gi-c-control__button:hover,.gi-c-control__button:focus {
+    z-index: 50;
+    background-color: #333
+}
+
+.gi-c-control__button:active {
+    background-color: #191919
+}
+
+.gi-c-control__button:active .gi-c-control__icon {
+    fill: #b2b2b2
+}
+
+.gi-c-control__button:active .gi-c-control__label {
+    color: #b2b2b2
+}
+
+.gi-c-control--stone .gi-c-control__button {
+    background-color: #fff;
+    padding: 0 .625rem
+}
+
+.gi-c-control--stone .gi-c-control__button:hover,.gi-c-control--stone .gi-c-control__button:focus {
+    z-index: 50;
+    background-color: #f4f3f1
+}
+
+.gi-c-control--stone .gi-c-control__button:active {
+    background-color: #f4f3f1
+}
+
+.gi-c-control--stone .gi-c-control__button:active .gi-c-control__icon {
+    fill: #b2b2b2
+}
+
+.gi-c-control--stone .gi-c-control__button:active .gi-c-control__label {
+    color: #b2b2b2
+}
+
+.gi-c-control--close .gi-c-control__button {
+    width: 44px;
+    margin: 0
+}
+
+.gi-c-control--close:hover .gi-c-control__button {
+    background-color: #191919
+}
+
+.gi-c-control--stone .gi-c-control__button {
+    border: none;
+    color: #fff
+}
+
+.gi-c-control__icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    fill: #fff;
+    vertical-align: middle;
+    position: absolute;
+    left: 12px;
+    top: 12px
+}
+
+.gi-c-control:active .gi-c-control__icon,.gi-c-control:visited .gi-c-control__icon {
+    color: #b2b2b2;
+    fill: #b2b2b2
+}
+
+.gi-c-control--stone .gi-c-control__icon {
+    fill: #7f7f7f
+}
+
+.c-video {
+    margin-top: .625rem;
+    margin-bottom: .625rem;
+    position: relative
+}
+
+.c-video--image {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center
+}
+
+.c-video__button--play {
+    margin-bottom: 16px;
+    margin-left: 16px;
+    position: absolute;
+    bottom: 0;
+}
+
+.c-button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: .5625rem 2rem;
+    border: 1px solid;
+    border-radius: .125rem;
+    transition: background-color 0.25s ease-out;
+    font-size: .875rem;
+    min-height: 2.5rem;
+    line-height: 1;
+    letter-spacing: .0625rem;
+    vertical-align: middle;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center
+}
+
+.font__gmsanc-bold--loaded .c-button {
+    font-family: "GMsanC-Bold",Helvetica,Arial,Verdana,sans-serif;
+    font-weight: normal;
+    font-style: normal
+}
+
+.c-button em,.c-button i {
+    font-style: normal
+}
+
+.c-button:active {
+    transition-duration: 0;
+    transition-timing-function: unset
+}
+
+.c-button--dark-secondary {
+    border-color: #b2b2b2;
+    background-color: #333;
+    color: #fff
+}
+
+.c-button--dark-secondary .c-button__icon {
+    fill: #fff
+}
+
+.c-button--dark-secondary:hover,.c-button--dark-secondary:focus {
+    background-color: #666;
+    color: #fff
+}
+
+.c-button--dark-secondary:hover .c-button__icon,.c-button--dark-secondary:focus .c-button__icon {
+    fill: #fff
+}
+
+.c-button--dark-secondary:active {
+    background-color: #191919;
+    color: #fff
+}
+
+.c-button--dark-secondary:active .c-button__icon {
+    fill: #fff
+}
+
+.c-button--no-border {
+    border: none
+}
+
+.c-button__icon,.c-button__text {
+    vertical-align: middle;
+    display: inline-block
+}
+
+.c-button__icon {
+    width: 1.125rem;
+    height: 1.125rem;
+    margin-right: .3125rem
+}
+
+.c-button--badge {
+    padding: 6px;
+    border-radius: 4px;
+    text-align: left
+}
+
+.c-button--badge .c-button__icon {
+    height: 32px;
+    width: 32px
+}
+
+.c-button--badge .c-button__text {
+    font-size: 12px;
+    line-height: 1.25
+}
+
+.c-button__primary-text {
+    display: block
+}
+
+.c-button__secondary-text {
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+	display:none;
+}
+
+.font__gmsanc-regular--loaded .c-button__secondary-text {
+    font-family: "GMsanC-Regular",Helvetica,Arial,Verdana,sans-serif;
+    font-weight: normal;
+    font-style: normal
+}
+
+.c-button__secondary-text em,.c-button__secondary-text i {
+    font-style: normal
+}
+
+.c-button__secondary-text strong,.c-button__secondary-text b {
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-weight: 700;
+    font-style: normal
+}
+
+.font__gmsanc-bold--loaded .c-button__secondary-text strong,.font__gmsanc-bold--loaded .c-button__secondary-text b {
+    font-family: "GMsanC-Bold",Helvetica,Arial,Verdana,sans-serif;
+    font-weight: normal;
+    font-style: normal
+}
+
+.c-button__secondary-text strong em,.c-button__secondary-text strong i,.c-button__secondary-text b em,.c-button__secondary-text b i {
+    font-style: normal
+}
+
+.c-button--icon-only {
+    width: 40px;
+    height: 40px;
+    padding: 0 9px
+}
+
+.c-button--icon-only .c-button__icon {
+    margin-right: 0
+}
+
+.c-control {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    margin: 0;
+    overflow: visible;
+    padding: 0 2px;
+    position: relative;
+    width: 50px;
+    text-decoration: none
+}
+
+.c-control--stone {
+    width: auto;
+    background-color: transparent
+}
+
+.c-control--close-modal {
+    top: 1px;
+    right: 1px;
+    position: absolute;
+    padding: 0;
+    height: 44px
+}
+
+.c-control__button {
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 14px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    height: 44px;
+    width: 44px;
+    line-height: 1;
+    overflow: visible;
+    padding: 0;
+    vertical-align: middle;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    background-color: transparent
+}
+
+.font__gmsanc-bold--loaded .c-control__button {
+    font-family: "GMsanC-Bold",Helvetica,Arial,Verdana,sans-serif;
+    font-weight: normal;
+    font-style: normal
+}
+
+.c-control__button em,.c-control__button i {
+    font-style: normal
+}
+
+.c-control__button .c-control__label {
+    color: #fff
+}
+
+.c-control__button:hover,.c-control__button:focus {
+    z-index: 50;
+    background-color: #333
+}
+
+.c-control__button:active {
+    background-color: #191919
+}
+
+.c-control__button:active .c-control__icon {
+    fill: #b2b2b2
+}
+
+.c-control__button:active .c-control__label {
+    color: #b2b2b2
+}
+
+.c-control--stone .c-control__button {
+    background-color: #fff;
+    padding: 0 .625rem
+}
+
+.c-control--stone .c-control__button:hover,.c-control--stone .c-control__button:focus {
+    z-index: 50;
+    background-color: #f4f3f1
+}
+
+.c-control--stone .c-control__button:active {
+    background-color: #f4f3f1
+}
+
+.c-control--stone .c-control__button:active .c-control__icon {
+    fill: #b2b2b2
+}
+
+.c-control--stone .c-control__button:active .c-control__label {
+    color: #b2b2b2
+}
+
+.c-control--close .c-control__button {
+    width: 44px;
+    margin: 0
+}
+
+.c-control--close:hover .c-control__button {
+    background-color: #191919
+}
+
+.c-control--stone .c-control__button {
+    border: none;
+    color: #fff
+}
+
+.c-control__icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    fill: #fff;
+    vertical-align: middle;
+    position: absolute;
+    left: 12px;
+    top: 12px
+}
+
+.c-control:active .c-control__icon,.c-control:visited .c-control__icon {
+    color: #b2b2b2;
+    fill: #b2b2b2
+}
+
+.c-control--stone .c-control__icon {
+    fill: #7f7f7f
+}	
+</style>
+	
+	<style>
+	
+	
+/*!
+ * multiscroll.js 0.2.1
+ * https://github.com/alvarotrigo/multiscroll.js
+ * @license MIT licensed
+ *
+ * Copyright (C) 2016 alvarotrigo.com - A project by Alvaro Trigo
+ */
+
+.title-wrapper {
+  display: flex;
+	margin-bottom:0px;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+.right {
+  height: 100vh;
+  color: white;
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  transition: all .5s ease-in;
+}
+
+
+.nav {
+  text-align: center;
+height:100vh;
+  padding: 0;
+  margin-bottom: 0px;
+
+}
+
+.logo {
+	
+	margin:0px auto;
+	}
+
+.credits {
+	font-family: "GMSansCBold","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    text-transform: uppercase;
+    font-size: 10px;
+    color: #fff;
+    border-top: 4px solid #fff;
+    display: inline-block;
+    margin:30px auto 0px auto;
+    padding-top: 30px;
+	text-align:center;
+
+}
+
+.nav-left {
+	width:50vw;
+	height:100vh;
+	overflow:hidden;
+	float:left;
+	background-color: #000;
+	position:relative;
+	background-image:url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/images/Seed9_VolvoNudnik_MG_142fin.jpg');
+	background-size:cover;
+	background-position:center;
+}
+.nav-left .logo-container {
+	position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+width:100%;
+	text-align:center;
+
+}
+
+
+
+.nav-right {
+	width:50vw;
+	height:100vh;
+	overflow:hidden;
+	float:right;
+	background-color:#000;
+	padding:0px;
+	margin:0px;
+	position:relative;
+}
+
+.nav-right .intro-text {
+	color:#fff;
+	text-align:center;
+	width: auto;
+	padding:0px 2.5em;
+	margin: auto;
+	font-size:22px;
+	line-height:1.5;
+	  position: absolute;
+  top: 50%;
+
+  transform: translateY(-50%);
+	
+}
+.new-adv-sponsor-banner{
+      display:block;
+      position:absolute;
+      top:50px;
+      left:0;
+      width:100vw;
+      height:10px;
+      padding: .625rem 0;
+      background:#e5eff1;
+      color:#333;
+      text-align:center;
+      font-size: .6875rem;
+      z-index:8888;
+    }
+
+    .new-adv-banner{
+      font-family: Helvetica,Arial,Verdana,sans-serif;
+        font-size: .6875rem;
+        line-height: .75rem;
+        letter-spacing: .0625rem;
+        text-transform: uppercase;
+        background-color: #E3EFF1;
+        padding-bottom:2px;
+		
+    }
+
+:root {
+  --h: auto;
+  --o: 0px;
+}
+
+html {
+  box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+		font-family: 'Volvo Novum',sans-serif;
+}
+
+
+svg.tgam-nameplate-2 {
+    background-color: transparent;
+    display: block;
+    height: 50px;
+    padding: 2px;
+    width: 50px;
+	margin: 10px;
+	position: absolute;
+    top: 18px;
+    left: 0px;
+	z-index: 10;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+svg.tgam-nameplate-2 path {
+    fill: #fff;
+}
+
+
+
+element {
+
+}
+svg.tgam-nameplate-2 path.tgam-leaf {
+
+    fill-rule: evenodd;
+
+}
+
+
+
+.title-fade{
+    -webkit-animation: 1.5s ease 0s normal forwards 1 fadein;
+    animation: 1.5s ease 0s normal forwards 1 fadein;
+}
+.title-fade-2{
+    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+    animation: 3s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    20% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    20% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 1.4s;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+
+
+
+
+.hideme
+{
+    opacity:0;
+}
+
+.container {
+	padding:0px;
+	margin:0px;
+
+
+}
+.ad-container-2 {
+	width:auto;
+	text-align:center;
+	clear:both;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.ad {
+	max-width:728px;
+	height:90px;
+	background-color:dimgrey;
+	margin:0px auto;
+}
+
+	.wrapper {
+		max-width:1100px;
+		margin:0px auto;
+	
+		position:relative;
+
+}
+
+.wrapper-hero {
+	background-color:#000;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+	display:block;
+	padding-bottom:60px;
+	  -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+
+	
+}
+
+.hero-container {
+	max-width:1400px;
+	margin:0px auto;
+	padding:180px 2rem 0px 2rem;
+	
+}
+		
+				.intro-container {
+   max-width:550px;
+					margin:0px auto;
+	
+		
+		}
+
+.title-container {
+	width:100%;
+	display:inline-block;
+	color:#fff;
+	vertical-align:top;
+	text-align:center;
+	
+}
+		
+		.title-container img.logo {
+			width:75px;
+			margin-bottom:20px;
+		}
+.title-container h3 {
+	font-size:50px;
+	font-family: 'Volvo Broad Pro',sans-serif;
+	text-transform:uppercase;
+	font-weight:normal;
+	margin-top: 0px;
+	line-height:0.8;
+	margin-bottom:22px;
+}
+
+
+.title-container h1 {
+	font-size:50px;
+	font-family: 'Volvo Novum Bold',sans-serif;
+	text-transform:none;
+	
+	margin-top: 0px;
+	line-height:1;
+	margin-bottom:32px;
+}
+
+.title-container h2 {
+	font-size: 30px;
+	text-transform:none;
+	font-family: 'Volvo Novum Medium',sans-serif;
+	font-weight: normal;
+	margin-top:0px;
+}
+
+.video-container {
+	width:60%;
+	display:inline-block;
+	border:0px solid #fff;
+	overflow:visible;
+	height:auto;
+	vertical-align:top;
+	margin:0px;
+	padding:0px 2rem;
+}
+
+
+.video-block {
+	max-width:1200px;
+	margin:0px auto;
+	padding:2rem;
+}
+
+.video-text {
+	width:50%;
+	display:inline-block;
+		vertical-align:top;
+		padding:2rem;
+	
+}
+
+.video-text  h2 {
+	font-size: 30px;
+	color:#000;
+	text-transform:none;
+	font-family: 'Volvo Novum Bold',sans-serif;
+	vertical-align:top;
+	margin-top:0px;
+
+	
+}
+
+ .video-text a {
+	color:#000;
+}
+
+ .video-text a:hover {
+	color:#000;
+}
+
+.video {
+	width: 46%;
+	display:inline-block;
+	padding:2rem;
+}
+
+
+
+hr{
+	border-top: 5px solid #000;
+	width:20%;
+	margin:40px auto;
+	   -ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Safari */
+    transform: rotate(-3deg);
+}
+
+
+.text-wrap {
+	padding:4rem 2rem 2rem 2rem;
+	font-family: 'Volvo Novum', sans-serif;
+	line-height:1.5;
+	font-size:1.125rem;
+	max-width:700px;
+	margin:0px auto;
+	
+}
+
+.text-wrap-2 {
+	padding:2rem 2rem 2rem 2rem;
+	font-family: 'Volvo Novum', sans-serif;
+	line-height:1.5;
+	font-size:1.125rem;
+	max-width:700px;
+	margin:0px auto;
+	
+}
+
+
+.text-wrap  p:first-child:first-letter {
+float: left;
+    font-family: 'Volvo Broad Pro';
+	color:#000000;
+    font-weight: 300;
+    font-size: 68px;
+    line-height: 57px;
+    padding-top: 0px;
+    padding-right: 4px;
+    padding-left: 0px;
+    margin-bottoM: -3px;
+
+}
+
+.img-center {  
+max-width:1000px;
+	margin:0px auto;
+	
+}
+
+
+
+
+.img-center img {
+	
+	width:100%;
+	max-width:1000px;
+}
+
+
+
+.pull-quote {  
+max-width:850px;
+	margin:0px auto;
+	text-align:center;
+	padding: 0px 2rem;
+	
+}
+
+p.quote {
+	
+	font-size:40px;
+	font-family:'Volvo Novum Bold',sans-serif;
+	font-weight:bold;
+	line-height:1.2;
+	color:#000;
+
+}
+p.attribution {
+	
+	font-size:30px;
+	font-family:'Volvo Broad Pro',sans-serif;
+	line-height:1.2;
+	color:#313131;
+	margin-bottom:0px;
+
+}
+
+
+.wrapper-related {
+	width:100%;
+	margin:0px auto 50px auto;
+	padding:0px 2rem;
+	color:#000;
+	text-align:center;
+	overflow:visible;
+}
+	
+	.wrapper-related h1 {
+		font-size:32px;
+		padding-top:60px;
+		color:#000;
+			font-family: 'Volvo novum',sans-serif;
+		font-weight:bold;
+	}
+
+
+	.wrapper-related a {
+
+		color:#000;
+
+	}
+
+.wrapper-related a:hover {
+
+		color:#000;
+
+	}
+
+.related-container {
+	display:flex;
+	margin:0px auto;
+	max-width:1000px;
+	 justify-content: space-between;
+	padding-top:40px;
+
+
+}
+
+.related-video {
+	width:32%;
+	display:inline-block;
+}
+
+.related-video a {
+	color:#000;
+	font-family:'Volvo Novum';
+}
+
+.related-video a:hover {
+	color:#000;
+}
+
+
+.related-video img {
+	width:99%;
+	border:0px solid #fff;
+	margin-bottom:12px;
+}
+
+
+.disclaimer {
+	max-width:470px;
+	padding: 0px 2rem;
+	margin:0px auto;
+	text-align:center;
+	margin-bottom:100px;
+}
+
+@media only screen and (max-width: 1100px) {
+	
+
+.title-container h2 {
+	font-size: 28px;
+}
+	
+
+	
+	.video-container {
+		width: 55%;
+	}
+	
+	}
+	
+	
+	@media only screen and (max-width: 950px) {
+		
+
+
+
+
+		
+		
+.title-container h1 {
+	font-size:40px;
+}
+
+.title-container h2 {
+	font-size: 24px;
+	margin-bottom:50px;
+}
+	
+	.title-container {
+		width:100%;
+		padding:0px;
+	}
+	
+	.video-container {
+		width: 100%;
+		padding:0px;
+	}
+		
+
+		
+
+		 .quote-container {
+	margin:0px auto;
+	padding:120px 0px;
+	max-width:1000px;
+	color:#fff;
+	text-align:center;
+}
+
+.quote-container p {
+	font-size:28px;
+		font-family: 'Infiniti Brand',sans-serif;
+	font-weight:bold;
+}
+
+		
+		.wrapper {
+			clear:both;
+		}
+}
+
+
+	@media only screen and (max-width: 750px) {
+		
+		.nav-right .intro-text {
+    padding: 0px 1em;
+			
+		}
+		
+		.title-container h1 {
+	font-size:30px;
+}
+
+.title-container h3 {
+	font-size: 36px;
+}
+		
+		.intro-container p {
+			font-size:18px;
+		}
+		
+		.video-block {
+			padding:0px;
+		}
+		
+		.video {
+			width:100%;
+			
+		}
+		
+		.video-text {
+			width:100%;
+			text-align:center;
+		}
+		
+		hr {
+    margin: 0px auto;
+		}
+		
+		.related-container {
+			display:block;
+		}
+		.related-video {
+			width:100%;
+			display:block;
+			margin-bottom:30px;
+		}
+	}
+	
+
+@media only screen and (max-width: 630px) {
+	.nav-left {
+		width:100%;
+		display:block;
+		height:35vh;
+	}
+	.nav-right {
+		width:100%;
+			display:block;
+		height:65vh;
+	}
+	
+	.title-wrapper {
+    display: block;
+		margin:0px;
+	}
+}
+	
+
+.gi-slide.footer {
+                                        background: #000;
+                                        height: auto;
+                                        padding: 1rem 2rem
+                                    }
+
+                                    .gi-slide.footer footer {
+                                        background: #000;
+                                        max-width: 300px;
+                                        transform: none;
+                                        left: 0;
+                                        margin: 0 auto;
+                                        position: relative;
+                                        background: none;
+                                        width: 100%
+                                    }
+
+                                    @media (min-width: 768px) {
+                                        .gi-slide.footer footer {
+                                            max-width:80%
+                                        }
+                                    }
+
+                                    .gi-slide.footer footer.gi-footer .gi-footer__legal {
+                                        border: none;
+                                        font-size: 0.6rem
+                                    }
+
+                                    .gi-slide.footer footer.gi-footer .gi-footer__copyright {
+                                        font-size: 0.5rem;
+                                        line-height: 0.8rem;
+                                        color: #ddd
+                                    }
+
+                                    .gi-slide.footer li {
+                                        width: 100%
+                                    }
+
+                                    @media (min-width: 768px) {
+                                        .gi-slide.footer li {
+                                            width:auto
+                                        }
+                                    }
+
+                                    .gi-slide.footer li a {
+                                        color: #fff
+                                    }
+
+
+footer.gi-footer {
+                                     
+                                        background-color: #eee
+                                    }
+
+                                    footer.gi-footer .gi-footer__legal {
+                                        padding: 15px 0;
+                                        font-size: 12px;
+                                        line-height: 1.4;
+                                        text-align: center;
+                                        border-top: 1px #ddd solid
+                                    }
+
+                                    footer.gi-footer .gi-footer__legal a {
+                                        color: #444;
+                                        text-decoration: none
+                                    }
+
+                                    footer.gi-footer .gi-footer__legal a:hover {
+                                        color: #CE2A23
+                                    }
+
+                                    footer.gi-footer .gi-footer__legal ul {
+                                        margin: 0 auto;
+                                        padding: 0
+                                    }
+
+                                    footer.gi-footer .gi-footer__legal li {
+                                        font-family: "GMSansCBold","Helvetica Neue",Helvetica,Arial,sans-serif;
+                                        display: inline-block;
+                                        list-style: none;
+                                        padding: 0 6px
+                                    }
+
+                                    footer.gi-footer .gi-footer__copyright {
+                                        padding: 14px 0;
+                                        color: #555;
+                                        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                                        font-size: 10px;
+                                        line-height: 1.4;
+                                        text-align: center;
+                                        border-top: 1px solid #ddd;
+										width:80%;
+										margin:0px auto;
+                                    }
+
+                                    footer.gi-footer .gi-footer__copyright address {
+                                        margin: 0;
+                                        font-style: normal;
+                                        font-weight: normal;
+                                        -webkit-font-smoothing: antialiased
+                                    }
+
+                                    footer.gi-footer .gi-footer__copyright abbr {
+                                        border: none
+                                    }	
+
+
+
+@font-face {
+    font-family: 'Volvo Novum';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-Italic.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Volvo Serif Pro';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoSerifPro-Regular.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoSerifPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Volvo Serif Pro';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoSerifPro-Italic.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoSerifPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Volvo Novum';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-Light.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Volvo Novum';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-Medium.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Volvo Novum';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-MediumItalic.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Volvo Novum';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-LightItalic.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Volvo Broad Pro';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoBroadPro.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoBroadPro.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Volvo Novum';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-Bold.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Volvo Novum SemiLight';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-SemiLight.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-SemiLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Volvo Novum';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-BoldItalic.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Volvo Serif Pro';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoSerifPro-BoldItalic.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoSerifPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Volvo Novum SemiLight';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-SemiLightItalic.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-SemiLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Volvo Novum';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-Regular.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoNovum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Volvo Serif Pro';
+    src: url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoSerifPro-Bold.woff2') format('woff2'),
+        url('https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/fonts/VolvoSerifPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+	</style>
+	
+</head>
+
+<body>
+	
+	<script>
+if ((window.screen.width < 400)) { var basePath = "/58/mob.tgam.mobi/";
+    } else { var basePath = "/58/theglobeandmail.com/";
+    }
+var auPath = tgam.adops.pageTargets.dlpn;
+var newauPath = auPath.replace(/\:/g, "/");
+var DFPadunit = basePath + newauPath;
+console.log(DFPadunit);
+if ((window.screen.width<=767)){
+   var DFPbp = "320";
+    }
+    if ((window.screen.width >= 768 && window.screen.width < 1024)) {
+    	var DFPbp = "768";
+    }
+    if ((window.screen.width >= 1024 && window.screen.width < 1280)) {
+    	var DFPbp = "1024";
+    }
+    if ((window.screen.width>=1280)){
+        var DFPbp = "1280";
+    } 
+var DFPadpg = tgam.adops.pageTargets.adpg;
+var DFPadv = tgam.adops.pageTargets.adv;
+var DFParena = tgam.adops.pageTargets.arena;
+var DFPasite = tgam.adops.pageTargets.asite;
+var DFPcla = tgam.adops.pageTargets.cla;
+var DFPcms = tgam.adops.pageTargets.cms;
+var DFPdlpn = tgam.adops.pageTargets.dlpn;
+var DFPduid = tgam.adops.pageTargets.duid;
+var DFPekw = tgam.adops.pageTargets.ekw;
+var DFPguid = tgam.adops.pageTargets.guid;
+var DFPhashid = tgam.adops.pageTargets.hashid;
+var DFPloc = tgam.adops.pageTargets.loc;
+var DFPmcmid = tgam.adops.pageTargets.mcmid;
+var DFPmode = tgam.adops.pageTargets.mode;
+var DFPpp0 = tgam.adops.pageTargets.pp0;
+var DFPpp1 = tgam.adops.pageTargets.pp1;
+var DFPpp2 = tgam.adops.pageTargets.pp2;
+var DFPpv2 = tgam.adops.pageTargets.pv2;
+var DFPrgcg = tgam.adops.pageTargets.rgcg;
+</script>
+
+
+	   
+
+<header class="gi-header"><!-- TGAM Interactive article bar here -->
+<a alt="The Globe and Mail website" class="logo-inHeader" href="https://www.theglobeandmail.com/" target="_blank">
+  <svg class="tgam-nameplate" viewbox="0 -1 200 200">
+    <path d="M15.036,14.184c.807-2.623,1.687-3.025,4.55-3.025h3.083v40.01h-5.8v2.825h20.55V51.168h-5.8V11.158H34.7c3.155,0,3.6.335,4.477,2.957l2.568,8.07,4.183-.74V11.293h4.33V51.168H45.711v2.825H63.766V51.168L59.215,51.1V32.945H74.848V51.168H70.37v2.825h52.255l1.025-13.986-4.109-.74L116.9,46.46c-1.1,3.094-2.569,4.708-5.21,4.708H103.4c-.073,0-.073-.808-.073-18.157H115.5v-3.5H103.322V11.293h6.239c2.936.068,3.962.94,4.842,3.563l2.5,7.331,4.184-.74V8.468H89.819v2.825h4.55V51.168H83.875V11.293h4.551V8.468H70.37v2.825h4.478V29.516H59.215V11.293h4.551V8.468H8.871L8.357,21.446l4.183.74ZM183.906,88.072l-2.644,7.2c-1.1,3.093-2.568,4.707-5.211,4.707h-8.293c-.074,0-.074-.808-.074-18.157h12.184v-3.5H167.685V60.1h6.238c2.935.067,3.964.941,4.844,3.564l2.5,7.33,4.185-.739V57.273H154.182V60.1h4.551V99.975h-4.551V102.8h32.806l1.026-13.987ZM142.514,79.33c6.385-2.016,8.659-6.388,8.659-10.356,0-7.329-5.136-11.7-14.163-11.7H117.268V60.1h4.843V99.975h-4.843V102.8h20.768c9.321,0,15.414-4.841,15.414-11.9C153.45,84.911,149.484,80.2,142.514,79.33ZM131.065,60.1h4.55c4.328,0,6.53,4.37,6.53,9.817,0,4.506-1.98,8.2-5.5,8.2h-5.577Zm5.21,39.876H131.8c-.733,0-.733-.741-.733-1.614V81.078h6.165c4.7.269,6.752,4.841,6.752,10.423C143.981,97.352,141.193,99.975,136.275,99.975ZM29.127,103.269a37.74,37.74,0,0,0,10.862-2.017l4.037-.337V84.507H29.934V87.4h5.357V98.965a20.613,20.613,0,0,1-5.505.538c-6.53,0-12.035-5.582-12.035-20.04,0-10.826,4.33-19.03,10.715-19.03,4.99,0,6.752,5.716,8.807,12.844l4.843-.807V60.5a20.836,20.836,0,0,0-12.622-3.565C16.431,56.938,8.211,68.5,8.211,80.743,8.211,96.142,17.091,103.269,29.127,103.269Zm16.513-3.294V102.8H76.463l1.075-13.173c2.564,8.592,9.114,13.644,18.96,13.644,13.357,0,20.255-11.028,20.255-23.736,0-13.987-7.265-22.729-20.255-22.729-13.283,0-20.183,11.094-20.183,23.8a32.717,32.717,0,0,0,.874,7.722l-3.807-.661-2.5,7.532c-.954,2.824-2.642,4.774-5.578,4.774H59.584c-.073,0-.073-1.817-.073-39.876h4.55V57.273H46.227V60.1h4.33V99.975ZM96.5,60.367c6.678,0,10.715,6.523,10.715,19.7S104.131,99.7,96.5,99.7c-6.605,0-10.641-6.454-10.641-19.634S88.94,60.367,96.5,60.367ZM77.563,80.743m27.447,25.338h-32V108.9c6.019,0,6.091,3.16,6.091,4.908V136.07c-6.238-9.213-20.036-28.713-20.769-29.99H46.151V108.7c2.349.2,4.477,2.623,5.872,4.574v30.668c0,2.645-.194,4.5-3.6,4.9v-.057h-3.6l-13.944-42.7H23.77c-1.762,6.724-12.33,37.932-12.33,37.932-1.1,3.025-2.642,4.772-5.8,4.772v2.825H20.026v-2.825c-5.211-.4-5.357-1.746-4.33-6.052.367-1.478.954-3.7,2.055-7.468H30.669c1.394,4.236,3.008,8.749,4.477,13.52H30.888v2.825H62.446v-2.825c-6.827-.065-6.974-2.69-6.974-4.841V118.185l23.045,33.425h3.889c0-2.353.147-5.243.147-8.136V113.813c0-3.093.954-4.908,5.5-4.908h4.11v39.879H87.324v2.825H105.01c13.8,0,21.8-10.828,21.8-23.339C126.807,115.292,119.028,106.081,105.01,106.081ZM18.853,131.833l5.211-16.541,5.5,16.541Zm85.057,16.951h-1.027c-1.175,0-1.687-.738-1.687-2.016V108.9h.88c3.89,0,5.357.6,6.9,1.412,5.651,3.094,8.366,11.163,8.366,19.367,0,9.414-2.715,15.068-6.751,17.488C109.12,148.046,107.651,148.784,103.91,148.784Zm41.83,44.034c-.953,2.822-2.641,4.773-5.576,4.773h-5.726c-.073,0-.073-1.815-.073-39.876h4.551v-2.824H121.082v2.824h4.33v39.876h-4.339v2.824h30.246l1.176-14.391-4.26-.739Zm-30.9-35.1h4.476v-2.824H101.268v2.824h4.55v39.876H97.892l-13.944-42.7H76.829C75.068,161.616,64.5,192.818,64.5,192.818c-1.1,3.025-2.643,4.773-5.8,4.773H54.3l-1.321-27.638c-.292-6.119-.366-7.666-.366-8.607,0-2.554.293-3.093,4.77-3.631v-2.824H43.952c-2.642,6.59-6.606,17.685-9.761,25.956-5.724-13.381-10.862-25.956-10.862-25.956H8.871v2.824c4.991.875,5.43.4,5.43,4.842v.538c-.439,8.069-1.394,22.256-2.055,30.664-.147,2.017-.807,3.024-5.357,4.033v2.623H21.714v-2.691c-5.21-.807-5.5-2.485-5.5-3.965,0-1.277.512-12.912.88-22.192l.293-7.665,12.991,30.731,1.908-.808,10.935-30.191,2.2,33.958H40.5v2.824H73.086v-2.824c-5.21-.4-5.357-1.748-4.329-6.053.367-1.48.954-3.7,2.054-7.463H83.728c1.394,4.235,3.01,8.742,4.477,13.516H83.948v2.824h35.375v-2.824h-4.478ZM71.912,180.644l5.211-16.54,5.5,16.54Z" transform="translate(-5.642 -8.468)"></path>
+    <path class="tgam-leaf" d="M149.693,175.746a.6.6,0,0,0-.783.57.924.924,0,0,0,.439.893.632.632,0,0,0,.285.1c1.381.111,3-2.3,4.041-4.1.475-.824.651-1.1.871-1.1.1,0,.488-.041.91.711.57,1,3.418,3.846,7.049,3.064.142-.357-.5-.643-.926-.857,0,0-1.494-1.209.428-1.777,1.922-.43,2.847.285,4.483-1.068.072-.428-.855-.641-.855-.641s-1.138-.711,2.208-1.709c1.638-.428,1.638-.713,1.353-.926s-1.067-.5.071-1.279c1.21-.783,1.992-1.852,1.923-2.207-.215-.287-.713-.215-1.353.143a1.655,1.655,0,0,1-2.135-.641c-.5-.783-1-.642-1.637-.142s-1.923,1.209-2.492,0c-.356-1.352-.214-1,.782-2.848a9.633,9.633,0,0,0,1.211-3.631c0-.283-.143-.428-1.068,0-.783.213-.855-3.773-.925-4.342,0,0,0-1.068-.641-.142A14.144,14.144,0,0,1,159.8,156.6a1.113,1.113,0,0,1-1.424-1.139c0-.785-.5-.5-.712,0s-1.709,5.338-2.063,5.623-.642,1-1.282-.213-1.755-4.08-2.8-2.658c-.284-.285-2.11-2.752-3.6-2.822-.215.283.141,1,.427,1.209a2.56,2.56,0,0,1,0,2.064,3.358,3.358,0,0,0,.069,2.49c.216.43-.069,1.141-1.28,1.281s-1,.5-.5,1.141,2.349,2.207,2.776,2.775-.071,1.283-.927,1.352-1.637-.213-1.85.285c-.071.5.641.285.926.715,0,0,1.566,2.846,3.63,2.7s2.159.135,1.923,1c-.207.748-1.872,3.164-3.417,3.344" transform="translate(-5.642 -8.468)"></path>
+  </svg>
+</a>
+
+<div class="gi-header__title">
+   <p>Brought to you by</p>
+	<img src="https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/images/volvo-logo.jpg">
+</div>
+
+
+	<div class="new-adv-sponsor-banner">
+                    <div class="new-adv-banner">Sponsor Content</div>
+              </div>
+</header>
+	
+<div class="title-wrapper">
+<div class="nav-left">
+<svg class="tgam-nameplate-2" viewbox="0 -1 200 200">
+    <path d="M15.036,14.184c.807-2.623,1.687-3.025,4.55-3.025h3.083v40.01h-5.8v2.825h20.55V51.168h-5.8V11.158H34.7c3.155,0,3.6.335,4.477,2.957l2.568,8.07,4.183-.74V11.293h4.33V51.168H45.711v2.825H63.766V51.168L59.215,51.1V32.945H74.848V51.168H70.37v2.825h52.255l1.025-13.986-4.109-.74L116.9,46.46c-1.1,3.094-2.569,4.708-5.21,4.708H103.4c-.073,0-.073-.808-.073-18.157H115.5v-3.5H103.322V11.293h6.239c2.936.068,3.962.94,4.842,3.563l2.5,7.331,4.184-.74V8.468H89.819v2.825h4.55V51.168H83.875V11.293h4.551V8.468H70.37v2.825h4.478V29.516H59.215V11.293h4.551V8.468H8.871L8.357,21.446l4.183.74ZM183.906,88.072l-2.644,7.2c-1.1,3.093-2.568,4.707-5.211,4.707h-8.293c-.074,0-.074-.808-.074-18.157h12.184v-3.5H167.685V60.1h6.238c2.935.067,3.964.941,4.844,3.564l2.5,7.33,4.185-.739V57.273H154.182V60.1h4.551V99.975h-4.551V102.8h32.806l1.026-13.987ZM142.514,79.33c6.385-2.016,8.659-6.388,8.659-10.356,0-7.329-5.136-11.7-14.163-11.7H117.268V60.1h4.843V99.975h-4.843V102.8h20.768c9.321,0,15.414-4.841,15.414-11.9C153.45,84.911,149.484,80.2,142.514,79.33ZM131.065,60.1h4.55c4.328,0,6.53,4.37,6.53,9.817,0,4.506-1.98,8.2-5.5,8.2h-5.577Zm5.21,39.876H131.8c-.733,0-.733-.741-.733-1.614V81.078h6.165c4.7.269,6.752,4.841,6.752,10.423C143.981,97.352,141.193,99.975,136.275,99.975ZM29.127,103.269a37.74,37.74,0,0,0,10.862-2.017l4.037-.337V84.507H29.934V87.4h5.357V98.965a20.613,20.613,0,0,1-5.505.538c-6.53,0-12.035-5.582-12.035-20.04,0-10.826,4.33-19.03,10.715-19.03,4.99,0,6.752,5.716,8.807,12.844l4.843-.807V60.5a20.836,20.836,0,0,0-12.622-3.565C16.431,56.938,8.211,68.5,8.211,80.743,8.211,96.142,17.091,103.269,29.127,103.269Zm16.513-3.294V102.8H76.463l1.075-13.173c2.564,8.592,9.114,13.644,18.96,13.644,13.357,0,20.255-11.028,20.255-23.736,0-13.987-7.265-22.729-20.255-22.729-13.283,0-20.183,11.094-20.183,23.8a32.717,32.717,0,0,0,.874,7.722l-3.807-.661-2.5,7.532c-.954,2.824-2.642,4.774-5.578,4.774H59.584c-.073,0-.073-1.817-.073-39.876h4.55V57.273H46.227V60.1h4.33V99.975ZM96.5,60.367c6.678,0,10.715,6.523,10.715,19.7S104.131,99.7,96.5,99.7c-6.605,0-10.641-6.454-10.641-19.634S88.94,60.367,96.5,60.367ZM77.563,80.743m27.447,25.338h-32V108.9c6.019,0,6.091,3.16,6.091,4.908V136.07c-6.238-9.213-20.036-28.713-20.769-29.99H46.151V108.7c2.349.2,4.477,2.623,5.872,4.574v30.668c0,2.645-.194,4.5-3.6,4.9v-.057h-3.6l-13.944-42.7H23.77c-1.762,6.724-12.33,37.932-12.33,37.932-1.1,3.025-2.642,4.772-5.8,4.772v2.825H20.026v-2.825c-5.211-.4-5.357-1.746-4.33-6.052.367-1.478.954-3.7,2.055-7.468H30.669c1.394,4.236,3.008,8.749,4.477,13.52H30.888v2.825H62.446v-2.825c-6.827-.065-6.974-2.69-6.974-4.841V118.185l23.045,33.425h3.889c0-2.353.147-5.243.147-8.136V113.813c0-3.093.954-4.908,5.5-4.908h4.11v39.879H87.324v2.825H105.01c13.8,0,21.8-10.828,21.8-23.339C126.807,115.292,119.028,106.081,105.01,106.081ZM18.853,131.833l5.211-16.541,5.5,16.541Zm85.057,16.951h-1.027c-1.175,0-1.687-.738-1.687-2.016V108.9h.88c3.89,0,5.357.6,6.9,1.412,5.651,3.094,8.366,11.163,8.366,19.367,0,9.414-2.715,15.068-6.751,17.488C109.12,148.046,107.651,148.784,103.91,148.784Zm41.83,44.034c-.953,2.822-2.641,4.773-5.576,4.773h-5.726c-.073,0-.073-1.815-.073-39.876h4.551v-2.824H121.082v2.824h4.33v39.876h-4.339v2.824h30.246l1.176-14.391-4.26-.739Zm-30.9-35.1h4.476v-2.824H101.268v2.824h4.55v39.876H97.892l-13.944-42.7H76.829C75.068,161.616,64.5,192.818,64.5,192.818c-1.1,3.025-2.643,4.773-5.8,4.773H54.3l-1.321-27.638c-.292-6.119-.366-7.666-.366-8.607,0-2.554.293-3.093,4.77-3.631v-2.824H43.952c-2.642,6.59-6.606,17.685-9.761,25.956-5.724-13.381-10.862-25.956-10.862-25.956H8.871v2.824c4.991.875,5.43.4,5.43,4.842v.538c-.439,8.069-1.394,22.256-2.055,30.664-.147,2.017-.807,3.024-5.357,4.033v2.623H21.714v-2.691c-5.21-.807-5.5-2.485-5.5-3.965,0-1.277.512-12.912.88-22.192l.293-7.665,12.991,30.731,1.908-.808,10.935-30.191,2.2,33.958H40.5v2.824H73.086v-2.824c-5.21-.4-5.357-1.748-4.329-6.053.367-1.48.954-3.7,2.054-7.463H83.728c1.394,4.235,3.01,8.742,4.477,13.516H83.948v2.824h35.375v-2.824h-4.478ZM71.912,180.644l5.211-16.54,5.5,16.54Z" transform="translate(-5.642 -8.468)"></path>
+    <path class="tgam-leaf" d="M149.693,175.746a.6.6,0,0,0-.783.57.924.924,0,0,0,.439.893.632.632,0,0,0,.285.1c1.381.111,3-2.3,4.041-4.1.475-.824.651-1.1.871-1.1.1,0,.488-.041.91.711.57,1,3.418,3.846,7.049,3.064.142-.357-.5-.643-.926-.857,0,0-1.494-1.209.428-1.777,1.922-.43,2.847.285,4.483-1.068.072-.428-.855-.641-.855-.641s-1.138-.711,2.208-1.709c1.638-.428,1.638-.713,1.353-.926s-1.067-.5.071-1.279c1.21-.783,1.992-1.852,1.923-2.207-.215-.287-.713-.215-1.353.143a1.655,1.655,0,0,1-2.135-.641c-.5-.783-1-.642-1.637-.142s-1.923,1.209-2.492,0c-.356-1.352-.214-1,.782-2.848a9.633,9.633,0,0,0,1.211-3.631c0-.283-.143-.428-1.068,0-.783.213-.855-3.773-.925-4.342,0,0,0-1.068-.641-.142A14.144,14.144,0,0,1,159.8,156.6a1.113,1.113,0,0,1-1.424-1.139c0-.785-.5-.5-.712,0s-1.709,5.338-2.063,5.623-.642,1-1.282-.213-1.755-4.08-2.8-2.658c-.284-.285-2.11-2.752-3.6-2.822-.215.283.141,1,.427,1.209a2.56,2.56,0,0,1,0,2.064,3.358,3.358,0,0,0,.069,2.49c.216.43-.069,1.141-1.28,1.281s-1,.5-.5,1.141,2.349,2.207,2.776,2.775-.071,1.283-.927,1.352-1.637-.213-1.85.285c-.071.5.641.285.926.715,0,0,1.566,2.846,3.63,2.7s2.159.135,1.923,1c-.207.748-1.872,3.164-3.417,3.344" transform="translate(-5.642 -8.468)"></path>
+  </svg>	
+	
+	<div class="logo-container title-fade">
+
+		</div>
+	  </div>
+<div class="nav-right">
+	
+	  	<div class="intro-text title-fade-2">
+			
+				<div class="title-container">	<img src="https://www.theglobeandmail.com/files/contentstudio/advertorial/volvo/images/volvo-ironmark.png" class="logo">
+					<h3>Exceptional Canadians</h3>
+		<h1>Twin sisters tackle textile waste with children’s clothing company Nudnik</h1>
+		
+	</div>
+				<div class="intro-container">
+<p>
+		Twin sisters Lindsay and Alexandra Lorusso started a company that repurposes materials destined for the landfill into colourful clothing for kids.</p>
+			</div>
+
+		</div>
+	  </div>
+	</div>
+
+	<div class="ad-container-2">
+	<div id="flex_1">
+<script src="https://www.googletagservices.com/tag/js/gpt.js"> 
+if ((window.screen.width < 768)) {
+    var DFPSize = [[300, 250]];
+}
+if ((window.screen.width >= 768 && window.screen.width < 1024)) {
+    var DFPSize = [[728, 90], [768, 250]];
+}
+if ((window.screen.width >= 1024)) {
+    var DFPSize = [[728, 90], [768, 250], [960, 90], [970, 250], [1000, 250]];
+}
+
+googletag.pubads().definePassback(
+    DFPadunit,
+    DFPSize
+)
+    .setTargeting('adpg', [DFPadpg])
+    .setTargeting('adv', [DFPadv])
+    .setTargeting('arena', [DFParena])
+    .setTargeting('asite', [DFPasite])
+    .setTargeting('bp', [DFPbp])
+    .setTargeting('cla', [DFPcla])
+    .setTargeting('cms', [DFPcms])
+    .setTargeting('dlpn', [DFPdlpn])  
+    .setTargeting('duid', [DFPduid])
+    .setTargeting('ekw', [DFPekw])
+    .setTargeting('guid', [DFPguid])
+    .setTargeting('hashid', [DFPhashid])
+    .setTargeting('loc', [DFPloc])
+    .setTargeting('mcmid', [DFPmcmid])
+    .setTargeting('mode', [DFPmode])
+    .setTargeting('pp0', [DFPpp0])
+    .setTargeting('pp1', [DFPpp1])
+    .setTargeting('pp2', [DFPpp2])
+    .setTargeting('pv2', [DFPpv2])
+    .setTargeting('rgcg', [DFPrgcg])
+    .setTargeting('pos', ['flex'])
+    .display();
+</script>
+</div>
+
+	</div>
+
+	<div class="wrapper">
+	
+	
+	<div class="text-wrap">
+		
+	<p>Being twins, best friends and business partners means that for Alexandra and Lindsay Lorusso, off the clock doesn’t happen very often. Just the other day they made plans to meet for a glass of wine. </p>
+ 
+<p>“We said, okay, this is a sisters’ night, not a work thing,” says Lindsay, “and then five minutes later we’re having this intense discussion about supply chain.”  
+ 
+</p>
+		</div>
+		
+	
+		
+		
+ <div class="img-center hidden">
+		<div class="powa" id="powa-23d3cac7-cd48-4c3a-977e-428e9e0520a2" data-org="tgam" data-uuid="23d3cac7-cd48-4c3a-977e-428e9e0520a2" data-ad-companion="coAd" data-aspect-ratio="0.562"><script src="//d6e4eccju4kk3.cloudfront.net/powaBoot.js"></script></div>
+	
+		</div>
+
+	<div class="text-wrap-2">
+
+    <h3>Ads start here:</h3>
+
+    <p>Leaderboard</p>
+
+    <div id="c-ad--ldbd-gpt-1" class="c-ad c-ad--ldbd">
+      <div class="c-ad__wrapper">
+        <div id="ldbd-gpt-1" aria-hidden="true" class="c-ad__image js-c-gpt-ad" data-type="ldbd" data-target='{"pos":"ldbd", "ptf":"gpt"}'></div>
+      </div>
+    </div>
+
+    <p>Brought to you by</p>
+
+    <div id="c-ad--btyb-gpt-1" class="c-ad c-ad--btyb">
+      <div class="c-ad__wrapper">
+        <div id="btyb-gpt-1" aria-hidden="true" class="c-ad__image js-c-gpt-ad" data-type="btyb" data-target='{"pos":"btyb", "ptf":"gpt"}'></div>
+      </div>
+    </div>
+
+    <p>Flex 1</p>
+    
+    <div id="c-ad--flex-gpt-1" class="c-ad c-ad--inline">
+      <div class="c-ad__wrapper">
+        <p class="c-ad__message">Story continues below advertisement</p>
+        <div id="flex-gpt-1" aria-hidden="true" class="c-ad__image js-c-gpt-ad" data-type="flex" data-target='{"pos":"flex", "ptf":"gpt"}'></div>
+      </div>
+    </div>
+
+    <p>Flex 2</p>
+
+    <div id="c-ad--flex-gpt-2" class="c-ad c-ad--inline">
+      <div class="c-ad__wrapper">
+        <p class="c-ad__message">Story continues below advertisement</p>
+        <div id="flex-gpt-2" aria-hidden="true" class="c-ad__image js-c-gpt-ad" data-type="flex" data-target='{"pos":"flex2", "ptf":"gpt"}'></div>
+      </div>
+    </div>
+
+    <p>Flex 3</p>
+
+    <div id="c-ad--flex-gpt-3" class="c-ad c-ad--inline">
+      <div class="c-ad__wrapper">
+        <p class="c-ad__message">Story continues below advertisement</p>
+        <div id="flex-gpt-3" aria-hidden="true" class="c-ad__image js-c-gpt-ad" data-type="flex" data-target='{"pos":"flex3", "ptf":"gpt"}'></div>
+      </div>
+    </div>
+			
+	<p>In fairness, there has been a lot to talk about since the sisters, both thirty-six, launched Nudnik, a line of stylish and sustainable children’s clothing, in 2016. Last year, they were accepted into the Joe Fresh Centre for Fashion Innovation at Ryerson University. They recently debuted the world’s first negative waste t-shirt via a Kickstarter campaign, which as of October 29, had raised over $7,500.</p>
+		
+		
+ 
+<p>“We always knew we wanted to do something together,” says Alexandra, listing off some of their previous entrepreneurial “almosts” including a line of customizable cosmetics (“sort of like a smoothie bar for makeup”), and individually packaged pickles (“this was back in 2012—now they’re everywhere!”). As they delved further into their plan to create eco-conscious kidswear, they knew this was the idea worth pursuing.
+</p>
+		</div>
+		
+		<div class="pull-quote">
+		
+		<p class="quote">“It wasn’t that we didn’t hit roadblocks, it’s that we were able to get around them.”</p>
+			<p class="attribution">Lindsay Lorusso</p>
+		
+		</div>
+		
+<div class="text-wrap-2">		
+<p>“It wasn’t that we didn’t hit roadblocks, it’s that we were able to get around them,” says Lindsay, noting that the business played to a lot of their previous experience.</p>		
+	
+		
+<p>Growing up on a working farm in Tottenham, Ont., the twins spent their early years developing an appreciation for the great outdoors and playing mostly with each other. Their nearest neighbour was miles down the road, their only other sibling, a brother, was born six years after them. Their mom was “new-agey before that was a thing,” Alexandra jokes. She was sourcing organic food, stitching her daughters’ clothes by hand and, as they grew older, taking them into the city to seek out unique prom dresses at Kensington Market. From early on, the sisters used clothing as a way to express their individuality −Lindsay’s look is cool camp counselor, while Alex is the trendy fashionista. </p>
+	
+		</div>
+		
+		<div class="ad-container-2">
+		<div id="flex_2">
+<script src="https://www.googletagservices.com/tag/js/gpt.js"> 
+if ((window.screen.width < 768)) {
+    var DFPSize = [[300, 250]];
+}
+if ((window.screen.width >= 768 && window.screen.width < 1024)) {
+    var DFPSize = [[728, 90], [768, 250]];
+}
+if ((window.screen.width >= 1024)) {
+    var DFPSize = [[728, 90], [768, 250], [960, 90], [970, 250], [1000, 250]];
+}
+
+googletag.pubads().definePassback(
+    DFPadunit,
+    DFPSize
+)
+    .setTargeting('adpg', [DFPadpg])
+    .setTargeting('adv', [DFPadv])
+    .setTargeting('arena', [DFParena])
+    .setTargeting('asite', [DFPasite])
+    .setTargeting('bp', [DFPbp])
+    .setTargeting('cla', [DFPcla])
+    .setTargeting('cms', [DFPcms])
+    .setTargeting('dlpn', [DFPdlpn])  
+    .setTargeting('duid', [DFPduid])
+    .setTargeting('ekw', [DFPekw])
+    .setTargeting('guid', [DFPguid])
+    .setTargeting('hashid', [DFPhashid])
+    .setTargeting('loc', [DFPloc])
+    .setTargeting('mcmid', [DFPmcmid])
+    .setTargeting('mode', [DFPmode])
+    .setTargeting('pp0', [DFPpp0])
+    .setTargeting('pp1', [DFPpp1])
+    .setTargeting('pp2', [DFPpp2])
+    .setTargeting('pv2', [DFPpv2])
+    .setTargeting('rgcg', [DFPrgcg])
+    .setTargeting('pos', ['flex2'])
+    .display();
+</script>
+</div>
+
+		</div>		
+		
+		<div class="text-wrap-2">
+<p>In their twenties both worked at the waste management service Wasteco, where their father is a VP, and where they would conduct waste audits of major corporations. Having an up-close view of the amount of textile waste that was being sent straight to landfills got them thinking that perhaps there was something they could do about it. The decision to create clothing for children was based partly on the size of the fabric swatches, which can be smaller, and also because Lindsay was a new mom to her now six-year-old son Hunter. When she had baby number two, she decided maternity leave would be a good time to explore the potential of Nudnik—the Hebrew word for “little pest,” a flick at their mission to dress the next generation of disruptors. </p>
+		
+<p>Alexandra’s downtown condo became a makeshift office filled with fabric and sewing patterns. Their first collection was an assemblage of tracksuits and tees. They’re still at the stage where they are both doing a bit of everything (“startup life,” says Alexandra), though each oversees the part of the business that’s in line with individual strengths. Alexandra handles marketing and social media, while Lindsay is passionate about the operations side. </p>
+		
+<p>Both see Nudnik as a social enterprise − not just earth friendly, but gender neutral, and created to suit the needs of their tiny customers. </p>
+		
+<p>“You see so many kids dressed like mini adults these days,” says Lindsay. “We wanted this to be kids clothing for kids.” </p>
+		
+<p>At least, for now. The long-term goal is to expand to adult sizes, housewear and toys. And maybe, at some point, be able to go five minutes without talking shop. </p>
+		
+<p>“That’s the goal for the future,” says Alexandra. “For now, we’re doing exactly what we want to be doing.” </p>
+		
+		
+		
+		</DIV>
+	</div>
+
+
+	<hr>
+	
+<div class="wrapper-related">
+	
+
+	<h1><a href="https://www.theglobeandmail.com/life/adv/article-exceptional-canadians/" target="_blank">To read more stories of exceptional Canadians, click here →</a></h1>
+	
+		
+		</div>	
+	
+
+	<div class="ad-container-2">
+	<div id="flex_3">
+<script src="https://www.googletagservices.com/tag/js/gpt.js"> 
+if ((window.screen.width < 768)) {
+    var DFPSize = [[300, 250]];
+}
+if ((window.screen.width >= 768 && window.screen.width < 1024)) {
+    var DFPSize = [[728, 90], [768, 250]];
+}
+if ((window.screen.width >= 1024)) {
+    var DFPSize = [[728, 90], [768, 250], [960, 90], [970, 250], [1000, 250]];
+}
+
+googletag.pubads().definePassback(
+    DFPadunit,
+    DFPSize
+)
+    .setTargeting('adpg', [DFPadpg])
+    .setTargeting('adv', [DFPadv])
+    .setTargeting('arena', [DFParena])
+    .setTargeting('asite', [DFPasite])
+    .setTargeting('bp', [DFPbp])
+    .setTargeting('cla', [DFPcla])
+    .setTargeting('cms', [DFPcms])
+    .setTargeting('dlpn', [DFPdlpn])  
+    .setTargeting('duid', [DFPduid])
+    .setTargeting('ekw', [DFPekw])
+    .setTargeting('guid', [DFPguid])
+    .setTargeting('hashid', [DFPhashid])
+    .setTargeting('loc', [DFPloc])
+    .setTargeting('mcmid', [DFPmcmid])
+    .setTargeting('mode', [DFPmode])
+    .setTargeting('pp0', [DFPpp0])
+    .setTargeting('pp1', [DFPpp1])
+    .setTargeting('pp2', [DFPpp2])
+    .setTargeting('pv2', [DFPpv2])
+    .setTargeting('rgcg', [DFPrgcg])
+    .setTargeting('pos', ['flex3'])
+    .display();
+</script>
+</div>
+
+	</div>   
+<div class="disclaimer">
+	Advertising feature produced by Globe Content Studio. The Globe’s editorial department was not involved.</div>
+	
+	
+
+	<style>
+		.gi-slide.footer{background:#000;height:auto;padding:1rem 2rem}.gi-slide.footer footer{max-width:300px;transform:none;left:0;margin:0 auto;position:relative;background:0 0;width:100%}.gi-slide.footer footer.gi-footer .gi-footer__legal{border:none;font-size:.6rem}.gi-slide.footer footer.gi-footer .gi-footer__copyright{font-size:.5rem;line-height:.8rem;color:#ddd}.gi-slide.footer li{width:100%}@media (min-width:768px){.gi-slide.footer footer{max-width:80%}.gi-slide.footer li{width:auto}}.gi-slide.footer li a{color:#fff}footer.gi-footer{background-color:#eee}footer.gi-footer .gi-footer__legal{padding:15px 0;font-size:12px;line-height:1.4;text-align:center;border-top:1px #ddd solid}footer.gi-footer .gi-footer__legal a{color:#444;text-decoration:none}footer.gi-footer .gi-footer__legal a:hover{color:#ce2a23}footer.gi-footer .gi-footer__legal ul{margin:0 auto;padding:0}footer.gi-footer .gi-footer__legal li{font-family:GMSansCBold,"Helvetica Neue",Helvetica,Arial,sans-serif;display:inline-block;list-style:none;padding:0 6px}footer.gi-footer .gi-footer__copyright{padding:14px 0;color:#555;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:10px;line-height:1.4;text-align:center;border-top:1px solid #ddd;width:80%;margin:0 auto}footer.gi-footer .gi-footer__copyright address{margin:0;font-style:normal;font-weight:400;-webkit-font-smoothing:antialiased}footer.gi-footer .gi-footer__copyright abbr{border:none}.footerTitle{font-family:GMSansCBold,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;width:85%;max-width:600px;margin:0 auto;padding-top:1%;text-align:center;}.recirculation{display:flex;width:100%;margin:0 auto;flex-wrap:wrap;padding:5px; margin-bottom:40px;}.driver{width:calc(25% - 2%);padding:1%;margin:1%;background-color:#f6f6f6}.art{width:95%;margin:2% auto;height:180px;background-size:cover;background-position:center}.art1{background-image:url(https://www.theglobeandmail.com/files/contentstudio/images/GISMHMQI6BA3HFJ3SCTBO7GKVM.jpg)}.art2{background-image:url(https://www.theglobeandmail.com/files/contentstudio/images/JKJMOFLE3BHKRMNHCAGLNUTOD4.jpg)}.art3{background-image:url(https://www.theglobeandmail.com/files/contentstudio/images/SF4LCOO6ENBKRB4ZGUDMINM7T4.jpg)}.art4{background-image:url(https://www.theglobeandmail.com/files/contentstudio/images/OM5QKG2NDFA4TC6I3GJXBG2D7Y.jpg)}.footerHead{width:95%;margin:0 auto;font-size:1.2em;font-family:PrattRegular,Georgia,"Times New Roman",serif;font-weight:400;line-height:1.2rem}.driver a{text-decoration:none;color:#000}.driver a:hover{text-decoration:underline}@media (max-width:950px){.driver{width:90%;margin:3% auto;max-width:500px;padding-bottom:5%}}
+</style>
+	
+	<footer class="gi-footer"> 
+		<div class="footerTitle"> <h3>More stories from The Globe and Mail newsroom</h3> </div><div class="recirculation"> <div class="driver"> <a href="https://www.theglobeandmail.com/world/article-saudi-arabias-crown-prince-its-unyielding-neighbour-qatar-and-whats/"> <div class="art art1"></div><h4 class="footerHead">Saudi Arabia’s Crown Prince, its unyielding neighbour Qatar and what’s next for the region
+</h4></a> </div><div class="driver"> <a href="https://www.theglobeandmail.com/opinion/article-the-hidden-cost-of-emotional-labour/"> <div class="art art2"></div><h4 class="footerHead">All in a day’s work: What we talk about when we talk about emotional labour</h4></a> </div><div class="driver"> <a href="https://www.theglobeandmail.com/business/small-business/startups/article-she-was-eight-months-behind-on-her-rent-instead-of-kicking-her-out/"> <div class="art art3"></div><h4 class="footerHead">She was eight months behind on her rent. Instead of kicking her out, the landlord issued a challenge</h4></a> </div><div class="driver"> <a href="https://www.theglobeandmail.com/world/article-enough-is-enough-michael-ignatieff-says-giving-hungary-a-deadline/"> <div class="art art4"></div><h4 class="footerHead">‘Enough is enough,’ Michael Ignatieff says, giving Hungary a deadline in political battle with university</h4></a> </div></div><div class="gi-footer__legal"> <ul> <li><a href="https://www.theglobeandmail.com/help/terms-and-conditions/">Terms &amp; Conditions</a></li> <li><a href="https://www.theglobeandmail.com/help/privacy-policy/">Privacy Policy</a></li> <li><a href="https://www.theglobeandmail.com/help/disclaimer/">Disclaimer</a></li> <li><a href="https://www.theglobeandmail.com/help/accessibility-policy/">Accessibility</a></li> <li><a href="https://www.theglobeandmail.com/help/community-guidelines/article4229672">Community</a></li> <li><a href="https://www.theglobeandmail.com/help/contact-us/">Contact Us</a></li> <li><a href="https://sec.theglobeandmail.com/subscription/">Globe Unlimited</a></li> </ul> </div> <div class="gi-footer__copyright"> <span>© Copyright 2018 The Globe and Mail Inc. All Rights Reserved.</span> <address> <span class="org adr"> <span class="org street-address">351 King&nbsp;<abbr title="Street">St.</abbr>&nbsp;<abbr title="East">E.</abbr></span>, <span class="org locality">Toronto</span>,&nbsp; <abbr class="org region" title="Ontario">ON</abbr>&nbsp; <span class="org country-name">Canada</span>&nbsp; <span class="org postal-code">M5A0N1</span> </span> </address> <span>Phillip Crawley, Publisher</span> </div> 
+	</footer>
+
+
+ <script>// For sizing top cards on mobile/tablet screens
+var viewportHeight = window.innerHeight;
+var card = document.querySelectorAll('.gi-card');
+
+for (var i = 0; i < card.length; i++) {
+  card[i].style.height = viewportHeight + 'px';
+}
+
+function initFeature(){
+  // Interactive Header vars
+  var interactiveHeader = document.querySelector('.gi-header');
+  var viewportWidth = window.innerWidth;
+
+
+  function displayHeader(){
+    // Element positiong vars for determining when to hide and show UI elements
+    //var articleEl = document.getElementById('gi-body-content');
+    //var articleOffset = articleEl.offsetTop;
+
+    var articleOffset = "innerHeight" in window
+               ? window.innerHeight
+               : document.documentElement.offsetHeight;
+    var scrollTop = window.scrollY;
+
+	console.log(scrollTop - articleOffset);
+    if (scrollTop >= articleOffset) {
+      interactiveHeader.classList.add('gi-header__active');
+    } else {
+        interactiveHeader.classList.remove('gi-header__active');
+    }
+  }
+
+  window.addEventListener('scroll', displayHeader);
+}
+
+
+initFeature();
+</script>
+	
+</body>
+</html>
